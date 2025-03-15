@@ -1,0 +1,89 @@
+{
+    "editor.cursorStyle": "block",
+    "workbench.list.smoothScrolling": false,
+    "workbench.sideBar.location": "right",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.smoothScrolling": false,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+    "workbench.colorTheme": "Dracula Theme",
+    "solargraph.commandPath": "/usr/local/bin/solargraph",
+    "solargraph.formatting": true,
+    "workbench.iconTheme": "file-icons",
+    "editor.renderWhitespace": "trailing",
+    "editor.minimap.enabled": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+      },
+      "explorer.compactFolders": false,
+
+      "editor.fontFamily": "Fira Code Medium, monospace",
+      "editor.fontLigatures": true,
+      "terminal.integrated.fontFamily": "'MesloLGS NF'",
+
+
+    "editor.wordWrap": "on",
+    "go.toolsManagement.autoUpdate": true,
+    "workbench.startupEditor": "none",
+    "explorer.fileNesting.patterns": {
+      "*.ts": "${capture}.js",
+      "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+      "*.jsx": "${capture}.js",
+      "*.tsx": "${capture}.ts",
+      "tsconfig.json": "tsconfig.*.json",
+      "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+      "*.sqlite": "${capture}.${extname}-*",
+      "*.db": "${capture}.${extname}-*",
+      "*.sqlite3": "${capture}.${extname}-*",
+      "*.db3": "${capture}.${extname}-*",
+      "*.sdb": "${capture}.${extname}-*",
+      "*.s3db": "${capture}.${extname}-*"
+    },
+    "files.exclude": {
+      "**/__pycache__": true
+    },
+    "files.associations": {
+      "*.html": "html"
+    },
+    "haskell.manageHLS": "GHCup",
+    "git.ignoreRebaseWarning": true,
+    "git.confirmSync": false,
+    "sqliteViewer.maxFileSize": 2000,
+    "terminal.integrated.commandsToSkipShell": [
+      "language-julia.interrupt"
+    ],
+    "julia.symbolCacheDownload": true,
+    "workbench.productIconTheme": "icons-carbon",
+    "editor.glyphMargin": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "[html]": {
+      "editor.defaultFormatter": "NikolaosGeorgiou.html-fmt-vscode"
+    },
+    "window.menuBarVisibility": "compact",
+    "chat.commandCenter.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "[elixir]": {
+      "editor.defaultFormatter": "JakeBecker.elixir-ls",
+      // Based on Elixir formatter's style
+      "editor.insertSpaces": true,
+      // Note: While it is possible to override this in your VSCode configuration, the Elixir Formatter
+      // does not support a configurable tab size, so if you override this then you should not use the
+      // formatter.
+      "editor.tabSize": 2,
+      "files.trimTrailingWhitespace": true,
+      "files.insertFinalNewline": true,
+      "files.trimFinalNewlines": true,
+
+      // Provides smart completion for "do" and "fn ->" blocks. Does not run the Elixir formatter.
+      "editor.formatOnType": true,
+
+      // Misc
+      "editor.wordBasedSuggestions": "off",
+      "editor.trimAutoWhitespace": false
+    },
+    "editor.largeFileOptimizations": false,
+
+}
